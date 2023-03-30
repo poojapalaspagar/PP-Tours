@@ -1,0 +1,38 @@
+.section-features{
+   
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,rgba(111, 158, 240, 0.715),rgba(138, 195, 241, 0.786)),url(../image/pexels-james-westman-739365.jpg);
+    background-size: cover;
+  // clip-path: polygon(550px 100%  , 100% 0, 100% 550px, 0 100% );
+    transform: skewY(-7deg);
+    margin-top: -3rem;
+    &>*{
+        transform: skewY(7deg);
+
+    } //.selection-feature *----all the child childeren of section feature
+    
+}
+
+.feature-box{
+
+ background-color: rgba($color-white, .8);
+ padding: 2rem;
+ text-align: center;
+
+ border-radius: 3px;
+
+ box-shadow: 0 1.5rem 4rem rgba($color-black, 0.5);
+     &__icon{
+        font-size: 5rem;
+        margin-bottom: .5rem;
+        display:inline-block ;
+        background-image: linear-gradient( to right,rgb(74, 165, 240),rgb(72, 130, 217));
+       -webkit-background-clip: text;
+        color: transparent;
+        transition: transform .3s;
+
+     }
+     &:hover{
+        transform: translateY(-1.5rem) scale(1.03);
+     }
+}

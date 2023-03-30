@@ -1,0 +1,92 @@
+.footer{
+    background-color: #333;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    
+    
+    
+
+    &__logo-box{
+        font-size: 90px;
+        position: absolute;
+        color: rgb(86, 184, 237);
+        text-align: center;
+        margin-top: -12%;
+        margin-left: 43%;
+      
+    }
+
+    &__logo{
+        width: 30rem;
+        height: auto;
+    }
+
+    &__navigation{
+        margin-top: 75px;
+        display: inline-block;
+        border-top: 1px solid grey;
+        padding-top: 2rem;
+        width: 90%;
+        margin-left: -9%;
+       }
+     
+     
+    &__copyright{
+        margin-top: 75px;
+        width: 90%;
+        border-top: 1px solid grey;
+        padding-top: 2rem;
+        float: right;
+        margin-right: 13%;
+      }
+
+    &__list{
+       list-style: none;
+       text-decoration: none;
+    }
+
+    &__item{
+       display: inline-block;
+
+     &:not(:last-child){
+            margin-right: 1.5rem ;
+          }
+    }
+
+    &__link{
+
+        &:link,&:visited{
+            color: rgb(165, 162, 162);
+            background-color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 1rem;
+            transition: all .2s ;
+           
+        }
+
+        &:hover,&:active{
+            color: aqua;
+            box-shadow: 0 1rem 2rem rgba( #000, .4);
+            transform: rotate(5deg) scale(1);
+        }
+    }
+    &__heading{
+         margin-top: -5%;
+        margin-left: 42%;
+    }
+
+}
+.heading-F {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display:inline-block ;
+    background-image: linear-gradient( to right,rgb(74, 182, 240),rgb(8, 163, 234));
+    color: transparent;
+    transition: all .2s;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}

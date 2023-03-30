@@ -1,0 +1,115 @@
+.row{
+    max-width: 114rem;
+    // background-color: #eee;   
+    margin: auto;
+    
+   
+    .col-1-of-2{
+        width: 35rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+    .col-1-of-4{
+        width: 18rem;
+        margin: 0;
+        float: left;
+        margin-left: 4%;
+        margin-top: -10%;
+             
+    }
+    .col-1-of-3{
+        
+        float: left;
+        margin: 15%;
+       margin-top: 20px;
+       margin-left: 185px;
+
+    }
+}
+.col-1-of-4,p{
+    font-size: 17px;
+    margin-bottom: 10;
+    background-image: linear-gradient( to right,rgb(74, 165, 240),rgb(72, 130, 217));
+    color: transparent;
+     -webkit-background-clip: text;
+     
+}
+.col-1-of-4,h3{
+    color: rgb(72, 130, 217);
+}
+.heading4{
+//    margin-left: 30rem;
+   // margin-top: -80%;// text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display:inline-block ;
+    background-image: linear-gradient( to right,rgb(74, 165, 240),rgb(72, 130, 217));
+    color: transparent;
+    transition: all .2s;
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+    
+
+    &:hover{
+          transform:skewY(2deg) skewX(8deg) scale(1.1);
+          // text-shadow: .2rem 2rem 3rem  rgba($color: #100665, $alpha: 1.0);
+          // text-shadow: 1px 2px 1px 2px rgb(76, 6, 141);
+          // text-shadow: 1px 1px 2px pink;
+          // text-shadow: 2px 2px 2px 2px salmon;
+          letter-spacing: 2px;
+    }
+}
+
+.u-center-text{ 
+    text-align: center;
+}
+
+.u-margin-bottom-small{
+       margin-bottom: 1.5rem;
+}
+.u-margin-bottom-medium{
+      margin-bottom: 4rem;
+}
+.u-margin-bottom-big{
+    margin-bottom:8rem;
+}
+
+.heading3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.paragraph1{
+    font-size: 1.1rem;
+    // -webkit-background-clip: text;
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}
+.btn-text{
+    &:link,&:visited{
+        color:  rgb(63, 84, 241);
+        font-size: default-font-size;
+        display: inline-block;
+        text-decoration: none;
+        padding: 3px;
+        border-bottom: 1px solid rgb(101, 152, 234);
+       
+        transition: all 2s;
+    }
+
+    &:hover{
+       background-color: $color-primary;
+       color:$color-white;
+       box-shadow: 0 1rem 2rem (0,0,0, .15);
+       transform: translateY(-2px);
+   }
+    &:active{
+      
+       transform: translateY(0);
+       box-shadow: 0 .5rem 1rem rgba(0,0,0, .15);
+}
+}

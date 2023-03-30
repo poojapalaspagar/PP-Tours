@@ -1,0 +1,31 @@
+.section-about{
+       background-color: $color-grey-light-1;
+       padding: 20rem 0;
+       margin-top: -35vh;
+       padding-bottom: 28rem;
+ }
+.heading2{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      display:inline-block ;
+      background-image: linear-gradient( to right,rgb(74, 165, 240),rgb(72, 130, 217));
+      color: transparent;
+      transition: all .2s;
+      -webkit-background-clip: text;
+      background-clip: text;
+      
+
+      &:hover{
+            transform:skewY(2deg) skewX(8deg) scale(1.1);
+            // text-shadow: .2rem 2rem 3rem  rgba($color: #100665, $alpha: 1.0);
+            // text-shadow: 1px 2px 1px 2px rgb(76, 6, 141);
+            // text-shadow: 1px 1px 2px pink;
+            // text-shadow: 2px 2px 2px 2px salmon;
+            letter-spacing: 2px;
+      }
+}
+.u-center-text{
+    text-align: center;
+}
+
